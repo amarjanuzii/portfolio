@@ -52,7 +52,7 @@ header {
   letter-spacing: -0.32px;
   font-weight: 500;
 
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 nav ul {
@@ -121,11 +121,11 @@ margin: 10px;
 .hero-left h1 {
   margin-bottom: 25px;
   color: #ffffff;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 500;
 
   line-height: 90%;
-  font-size: clamp(3.125rem, 2.2143rem + 4.5536vw, 6.3125rem);
+  font-size: clamp(3.125rem, 2.2143rem + 4.5536vw, 6.01rem);
   text-align: left;
 }
 
@@ -213,7 +213,7 @@ margin: 10px;
 
 .projectstitle{
     font-size: clamp(2.6875rem,1.6563rem + 3.4375vw,4.75rem);
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Oswald", sans-serif;
     font-weight: 500;
     padding: 30px;
 
@@ -244,7 +244,7 @@ margin: 10px;
 
 .project-title {
   margin-bottom: 10px;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 500;
 
   font-size: clamp(2.6875rem, 1.6563rem + 3.4375vw, 4.75rem);
@@ -261,18 +261,17 @@ margin: 10px;
 .project button {
   cursor: pointer;
   font-weight: 700;
-  font-family: Helvetica, "sans-serif";
   transition: all 0.2s;
   padding: 10px 20px;
   border-radius: 100px;
-  background: #cfef00;
+  background: #989898;
   border: 1px solid transparent;
   display: flex;
   align-items: center;
   font-size: 15px;
 }
 .project button:hover {
-  background: #c4e201;
+  background: #787878;
 }
 
 button > svg {
@@ -318,7 +317,7 @@ button:active {
 .sectionTitle{
 
     font-size: clamp(2.6875rem,1.6563rem + 3.4375vw,4.75rem);
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Oswald", sans-serif;
   font-weight: 500;
 color: white;
   line-height: 90%;  
@@ -443,14 +442,10 @@ font-family: "Manrope", sans-serif;
   
   .capabilitiesButton {
     padding: 9px 25px;
-    border: 1px solid var(--clrGray);
     border-radius: 100px;
   }
   
-  .capabilitiesButton:hover {
-    background-color: var(--clrWhite);
-    color: var(--clrBlack);
-  }
+
   
   @media (min-width: 700px) {
     .capabilities {
@@ -475,7 +470,7 @@ font-family: "Manrope", sans-serif;
   
   @media (min-width: 1000px) {
     .capabilitiesContent {
-      max-width: 600px;
+      max-width: 750px;
     }
   }
   
@@ -509,7 +504,7 @@ font-family: "Manrope", sans-serif;
   
   @media (min-width: 975px) {
     .aboutDescription {
-      max-width: 700px;
+      max-width: 738px;
     }
   }
   
